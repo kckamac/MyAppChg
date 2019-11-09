@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*Styles for content Thumbnail*/
+.MyHeader{
+	display: flex;
+}
+.MyHeader div{
+	flex: 300px;
+}
+.MyHeader h1{
+	text-transform: uppercase;
+	color: darkgreen;
+	line-height: 0.5
+}
+.MyHeader p{
+	font-style: italic;
+	color: orange;
+	font-size: 16;
+	font-weight: bold;
+	
+}
+
+.MyHeader input{
+	height: 40px;
+	border: 2px solid orange;
+	align-self: flex-end;
+	border-radius: 20px;
+}
+.MyHeader img{
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+}
+
+/* Styles for Main welcome */
+.Welcome{
+	background-image: linear-gradient(60deg, rgba(5,0,235,0.1) 50%,rgba(250,20,0,0.2));
+	width: 98%;
+	margin: auto;
+	text-align: center;
+	border: 10px double silver; 
+	height: 360px;
+}
+
+.Welcome h1{
+	color: green;
+	font-size: 52;
+}
+
+.Welcome h1>span{
+	text-transform: uppercase;
+	line-height: 3;
+}
+.Welcome p{
+	font-size: 20px;
+	line-height: 3;
+}
+.Welcome button{
+	background: green;
+	height: 70px;
+	width: 200px;
+	padding: 20px;
+	color: white;
+	border-radius: 20px;
+	font-size: 16px;
+}
+.Welcome h3{
+	color: orange;
+	font-weight: bolder;
+}
+/*Styles for footer */
+.MyFooter{
+	background: silver;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
